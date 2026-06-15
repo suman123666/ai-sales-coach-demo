@@ -114,6 +114,8 @@ npm run dev
 
 浏览器打开 `http://localhost:9528`，移动端为 `http://localhost:9528/#/m`。
 
+> 本地开发需同时启动前后端两个服务：后端运行在 8001，前端 dev server 运行在 9528 并自动将 `/api` 请求代理到 8001。访问入口始终是 9528。
+
 ## 部署到 Render
 
 项目已包含 `render.yaml`，支持一键部署到 Render 的 Docker Web Service。
