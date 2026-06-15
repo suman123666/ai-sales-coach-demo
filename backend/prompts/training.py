@@ -177,10 +177,11 @@ def build_score_prompt(
     for idx, m in enumerate(messages, start=1):
         speaker = "销售" if m["role"] == "sales" else "客户"
         conv_lines.append(f"[第 {idx} 轮] {speaker}：{m['content']}")
+    conv_text = "\n".join(conv_lines)
     user_prompt = (
         "请对以下完整销售演练对话给出评分。请严格按 system 中描述的 schema "
         "输出 JSON，并保证 dimension_scores 按维度顺序排列、comment 字段先举"
         "对话证据再下结论。\n\n"
-        f"【完整对话】\n{'\n'.join(conv_lines)}"
+        f"【完整对话】\n{conv_text}"
     )
     return system_prompt, user_prompt
