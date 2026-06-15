@@ -16,7 +16,7 @@
 | 组长 | `leader1` | `leader123` | 查看团队练习记录、排行榜、薄弱维度分析 |
 | 员工 | `user1` | `user123` | 选择场景、完成 AI 陪练对话、查看评分报告 |
 
-移动端地址：[https://ai-sales-coach-demo.onrender.com/m](https://ai-sales-coach-demo.onrender.com/m)
+移动端地址：[https://ai-sales-coach-demo.onrender.com/#/m](https://ai-sales-coach-demo.onrender.com/#/m)
 
 ## 产品背景
 
