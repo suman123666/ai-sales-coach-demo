@@ -98,6 +98,8 @@ uvicorn main:app --port 8001 --reload
 Windows PowerShell：
 
 ```powershell
+cd backend
+python -m pip install -r requirements.txt
 $env:QWEN_API_KEY = "your-api-key"
 $env:AI_MODE = "real"
 python seed_data.py
