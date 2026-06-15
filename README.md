@@ -6,7 +6,7 @@
 
 ## Demo
 
-> **在线演示**：[https://ai-sales-training-center.onrender.com](https://ai-sales-training-center.onrender.com)
+> **在线演示**：[https://ai-sales-coach-demo.onrender.com](https://ai-sales-coach-demo.onrender.com)
 > （Render 免费版首次访问需等待约 30 秒冷启动）
 
 - PC 端入口：`/`
