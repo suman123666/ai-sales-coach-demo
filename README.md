@@ -6,7 +6,9 @@
 
 ## Demo
 
-- 在线演示：部署到 Render 后填写 URL
+> **在线演示**：[https://ai-sales-training-center.onrender.com](https://ai-sales-training-center.onrender.com)
+> （Render 免费版首次访问需等待约 30 秒冷启动）
+
 - PC 端入口：`/`
 - 移动端入口：`/m`
 - API 健康检查：`/health`

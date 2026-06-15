@@ -3,6 +3,8 @@ services:
     name: ai-sales-training-center
     runtime: docker
     plan: free
+    region: singapore
+    healthCheckPath: /health
     envVars:
       - key: AI_MODE
         value: real
